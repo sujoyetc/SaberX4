@@ -1,0 +1,6 @@
+#!/bin/sh
+make clean
+make
+cd saberX4test
+./test_kex
+cd ..
